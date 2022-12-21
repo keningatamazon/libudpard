@@ -146,7 +146,7 @@ TEST_CASE("RoundtripSimple")
 
     try
     {
-        const auto deadline = std::chrono::steady_clock::now() + std::chrono::seconds(1);
+        const auto deadline = std::chrono::steady_clock::now() + std::chrono::seconds(20);
         while (true)
         {
             UdpardTxQueueItem* ti = nullptr;
